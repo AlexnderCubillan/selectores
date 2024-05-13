@@ -1,0 +1,22 @@
+### Obtener Detalles de Elementos en una Página Web
+Este script de Python utiliza Selenium y pynput para obtener detalles de los elementos en una página web. Al hacer clic con el ratón en un elemento, se recopilan los siguientes detalles:
+
+XPATH: La ruta XPath del elemento.
+CSS_SELECTOR: El selector CSS del elemento.
+CLASS_NAME: El nombre de la clase del elemento.
+ID: El ID del elemento.
+LINK_TEXT: El texto del enlace (si el elemento es un enlace <a>).
+Requisitos
+Python 3.x
+Bibliotecas: selenium, pynput
+Instrucciones
+Instala las bibliotecas necesarias:
+pip install selenium pynput
+
+Descarga el controlador de Chrome (chromedriver) compatible con tu versión de Chrome y colócalo en la misma carpeta que este script. Puedes descargarlo desde aquí.
+Edita la línea driver.get('hhttps://www.google.com/') para que apunte a la página web que deseas analizar.
+Ejecuta el script:
+python obtener_detalles_elementos.py
+
+Mueve el ratón sobre los elementos de la página y haz clic en ellos. Los detalles se mostrarán en la consola.
+Presiona Esc para finalizar el programa.
